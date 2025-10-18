@@ -1,51 +1,45 @@
-# 🧠 Competitive Programming – Codeforces Solutions
+🧠 Competitive Programming – Codeforces Solutions
 
-Welcome to my **Codeforces Competitive Programming Solutions** repository!  
-This repo contains my solutions to various **Codeforces** problems that I’ve solved while improving my problem-solving and algorithmic thinking skills.
+Welcome to my Codeforces Competitive Programming Solutions repository!
+This repo contains my solutions to various Codeforces problems that I’ve solved while improving my problem-solving and algorithmic thinking skills.
 
----
+📚 About
 
-## 📚 About
-
-This repository serves as a personal archive of all the Codeforces problems I’ve solved.  
+This repository serves as a personal archive of all the Codeforces problems I’ve solved.
 It includes problems from different difficulty levels and topics, such as:
 
-- 🔢 **Data Structures** – Arrays, Stacks, Queues, Trees, Graphs  
-- ⚙️ **Algorithms** – Sorting, Searching, Dynamic Programming, Greedy, Graph Traversal  
-- 🧩 **Mathematics** – Number Theory, Combinatorics, Probability  
-- 💡 **Implementation & Logic Building**
+🔢 Data Structures – Arrays, Stacks, Queues, Trees, Graphs
 
-Each solution is written with a **focus on clarity, efficiency, and readability**.
+⚙️ Algorithms – Sorting, Searching, Dynamic Programming, Greedy, Graph Traversal
 
----
+🧩 Mathematics – Number Theory, Combinatorics, Probability
 
-## 🗂️ Repository Structure
+💡 Implementation & Logic Building
 
+Each solution is written with a focus on clarity, efficiency, and readability.
+
+🗂️ Repository Structure
 📁 CP31/
 │
-├── 800/ # Problems rated 800
-├── 1000/ # Problems rated 1000
-├── 1200/ # Problems rated 1200
+├── 800/                # Problems rated 800
+├── 1000/               # Problems rated 1000
+├── 1200/               # Problems rated 1200
 ├── ...
 │
-├── contests/ # Solutions from Codeforces contests
+├── contests/           # Solutions from Codeforces contests
 │
 └── README.md
 
+⚙️ Language Used
 
----
+All solutions are implemented in C++.
 
-## ⚙️ Language Used
-
-All solutions are implemented in **C++**.
-
----
-
-## 🚀 How to Run
+🚀 How to Run
 
 Clone the repository:
-```bash
-git clone https://github.com/<your-username>/Codeforces-Solutions.git
+
+git clone https://github.com/gaurav11gkk/Codeforces-Solutions.git
+
 
 Navigate to the directory:
 
