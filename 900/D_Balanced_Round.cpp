@@ -6,8 +6,8 @@ int solve(int n,int k,vector<int>& arr) {
     vector <int> temp = arr;
     sort(temp.begin(),temp.end());
     int i = 0,j=1,ans = 0;
-    while(i<=n && i<=n-1 && j<=n-1){
-        if((j-i)<=k){
+    while(i<=n-1 && i<=j && j<=n-1){
+        if((temp[j]-temp[i])<=k){
             i++;
             j++;
         }
