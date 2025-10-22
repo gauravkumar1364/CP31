@@ -5,19 +5,19 @@ using namespace std;
 int solve(int n,int k,vector<int>& arr) {
     vector <int> temp = arr;
     sort(temp.begin(),temp.end());
-    int i = 0,j=1,ans = 0;
-    while(i<=n-1 && i<=j && j<=n-1){
-        if((temp[j]-temp[i])<=k){
-            i++;
-            j++;
-        }
-        else{
-            i=j;
-            j++;
+    int i = 1;
+    long long larlen = 1;
+    long long ans = 1;
+    for(i;i<n;i++){
+        if(temp[i]-temp[i-1]<=k){
             ans++;
         }
+        else{
+            ans = 1;
+        }
+        larlen = max(larlen,ans);
     }
-    return ans;
+    return n-larlen;
 }
 
 int32_t main() {
